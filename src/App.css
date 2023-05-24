@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  border: red;
+  border-color: red;
+  
 }
 
 .App-logo {
@@ -34,5 +37,40 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.container{
+  
+}
+h2{
+  margin-top: -2rem;
+ }
+
+.login-container{
+  
+  background-color: rgb(172, 201, 225);
+  border-radius: 20px;
+  width: 12em;
+  display: grid;
+  margin: auto;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 12rem;
+  padding: 4em;
+ 
+  .input{
+    
+    margin: 0.8em;
+    height: 1.7em;
+    width: 13rem;
+    border-radius: 0.5rem;
+  
+  }
+  .input-btn{
+    background-color:rgb(28, 166, 190);
+    color: #f8f8f8ef;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.5rem;
   }
 }
